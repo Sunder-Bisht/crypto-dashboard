@@ -1,0 +1,215 @@
+header {
+  padding: 24px 32 px;
+  background-color: #111827;
+  border-bottom: 1px solid #374151;
+}
+
+.dashboard-intro {
+  padding: 24px 32px;
+}
+
+.dashboard-intro h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.dashboard-intro p {
+  margin: 0;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.market-stats {
+  padding: 0 32px 24px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  padding: 20px;
+  background-color: #111827;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  max-width: 320px;
+  flex: 1 1 220px;
+}
+
+.stat-card h3 {
+  margin: 0 0 12px;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.crypto-section {
+  padding: 24px 32px;
+}
+
+.crypto-section h2 {
+  margin: 0 0 20px;
+  font-size: 22px;
+}
+
+.crypto-table {
+  border: 1px solid #374151;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.crypto-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 20px;
+}
+
+.crypto-header {
+  background-color: #111827;
+  color: #9ca3af;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.crypto-row {
+  border-bottom: 1px solid #1f2937;
+  color: #e5e7eb;
+  font-size: 14px;
+}
+
+.crypto-header {
+  border-bottom: 1px solid #374151;
+}
+
+.positive-change {
+  color: #34d399;
+  font-weight: 600;
+}
+
+.negative-change {
+  color: #f87171;
+  font-weight: 600;
+}
+
+.crypto-row:last-child {
+  border-bottom: none;
+}
+
+.crypto-search {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  color: #e5e7eb;
+  background-color: #111827;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  outline: none;
+}
+
+.crypto-search:focus {
+  border-color: #60a5fa;
+}
+
+.no-results {
+  margin: 0;
+  padding: 24px 20px;
+  color: #9ca3af;
+  text-align: center;
+}
+
+.compare-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 12px 8px 0;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+.compare-option input {
+  accent-color: #38bdf8;
+}
+
+.comparison-summary {
+  margin-top: 28px;
+  padding: 20px;
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 12px;
+}
+
+.comparison-summary h3 {
+  margin-top: 0;
+}
+
+.comparison-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #374151;
+}
+
+.comparison-item:last-child {
+  border-bottom: none;
+}
+
+.chart-section {
+  margin-top: 28px;
+  padding: 20px;
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 12px;
+}
+
+.chart-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.comparison-chart-canvas {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.pie-chart-canvas {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.chart-section label {
+  display: block;
+  margin: 16px 0;
+  color: #e5e7eb;
+}
+
+.chart-section input,
+.chart-section select {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 8px;
+  padding: 10px;
+  color: #e5e7eb;
+  background: #0b1120;
+  border: 1px solid #374151;
+  border-radius: 6px;
+}
+
+.chart-section input:focus,
+.chart-section select:focus {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
